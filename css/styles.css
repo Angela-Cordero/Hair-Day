@@ -37,17 +37,22 @@ nav li {
   font-family: "Play", sans-serif;
 }
 
+nav a {
+  color: #f2e0d2;
+  text-decoration: none;
+}
+
 main {
   margin: 3rem 5rem;
 }
 
 .carrousel {
-  background-image: url(../workers.jpg);
+  background-image: url(../promotion.png);
   background-size: cover;
-  background-position: center 25%;
+  background-position: center 20%;
   margin: 1rem 0;
-  min-height: 400px;
-  max-height: 400px;
+  height: 350px;
+  min-width: 730px;
 }
 
 .highlights {
