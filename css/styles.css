@@ -57,12 +57,18 @@ main {
 
 .highlights {
   display: flex;
+  flex-wrap: wrap;
 }
 
 article {
   flex: 1;
   padding: 3rem;
   text-align: justify;
+}
+
+article > img {
+  max-width: 250px;
+  padding: 1rem 2.5rem;
 }
 
 article > p {
