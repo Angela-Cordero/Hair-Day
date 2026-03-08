@@ -37,6 +37,10 @@ nav li {
   font-family: "Play", sans-serif;
 }
 
+nav li:hover {
+  color: #d0604c;
+}
+
 nav a {
   color: #f2e0d2;
   text-decoration: none;
@@ -69,6 +73,11 @@ article {
 article > img {
   max-width: 250px;
   padding: 1rem 2.5rem;
+}
+
+article > img:hover {
+  transform: scale(1.1);
+  transition: 300ms;
 }
 
 article > p {
